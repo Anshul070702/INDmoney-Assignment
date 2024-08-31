@@ -1,4 +1,4 @@
-import Page from "./_components/UpperMenu/page";
+import Page from "./_components/HeaderMenu/page";
 function page() {
   return (
     <>

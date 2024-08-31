@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import Header from "@/app/_components/UpperMenu/header.js";
-import Test from "../Test.js";
-import Outer from "../../../static/tempp.js";
-import Bottom from "../Bottom/index.js";
+import Header from "@/app/_components/HeaderMenu/header.js";
+import Accordion from "../Accordion.js";
+import Outer from "../../../static/SideBarData.js";
+import Bottom from "../Footer/index.js";
 function Page() {
   const [click, setClick] = useState(false);
   return (
@@ -17,7 +17,7 @@ function Page() {
             </button>
           </div>
           {Object.keys(Outer).map((key, index) => (
-            <Test key={index} fields={Outer[key]} level={0} />
+            <Accordion key={index} fields={Outer[key]} level={0} />
           ))}
           <Bottom />
         </>

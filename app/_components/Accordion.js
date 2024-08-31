@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import Bottom from "./Bottom/index.js";
-function Test({ fields, level }) {
+function Accordion({ fields, level }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => setIsOpen(!isOpen);
 
   const renderChildren = (data) => {
     return Object.keys(data).map((key, index) => (
-      <Test key={index} fields={data[key]} level={level + 1} />
+      <Accordion key={index} fields={data[key]} level={level + 1} />
     ));
   };
 
@@ -70,4 +69,4 @@ function Test({ fields, level }) {
   );
 }
 
-export default Test;
+export default Accordion;
