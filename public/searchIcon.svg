@@ -1,0 +1,13 @@
+   <svg
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className=" h-[18px] w-[18px] text-gray-600"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M14.325 12.899l5.38 5.38a1.009 1.009 0 11-1.427 1.426l-5.38-5.38a8 8 0 111.426-1.426h.001zM8 14A6 6 0 108 2a6 6 0 000 12z"
+      fill="#757779"
+    ></path>
+  </svg>

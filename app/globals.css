@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-1 {
+    border-width: 1px;
+  }
+  .text-brand-green-dark {
+    color: #33a34d; /* Example color */
+  }
+  .bg-brand-white {
+    background-color: #F5F5F8; /* Example color */
+  }
+  .border-brand-green-dark {
+    border-color: #33a34d; /* Example color */
+  }
+  .shadow-one {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Example shadow */
+  }
+  
+}
