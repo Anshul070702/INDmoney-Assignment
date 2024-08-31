@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import Header from "@/components/UpperMenu/header";
+import Header from "@/app/_components/UpperMenu/header.js";
 import Test from "../Test.js";
-import Outer from "../../static/tempp.js";
+import Outer from "../../../static/tempp.js";
 import Bottom from "../Bottom/index.js";
 function page() {
   const [click, setClick] = useState(false);

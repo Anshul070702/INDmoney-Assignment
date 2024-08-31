@@ -1,8 +1,8 @@
-import Page from '../components/UpperMenu/index'
+import Page from "./_components/UpperMenu/index";
 function page() {
   return (
     <>
-     <Page/>
+      <Page />
     </>
   );
 }
