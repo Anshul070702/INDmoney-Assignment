@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import Header from "@/app/_components/HeaderMenu/header.js";
-import Accordion from "../Accordion.js";
-import Outer from "../../../static/SideBarData.js";
-import Bottom from "../Footer/index.js";
+import Header from "@/app/_components/SideBar/header.js";
+import Accordion from "./SideBar/Accordion.js";
+import Outer from "../../static/SideBarData.js";
+import Bottom from "./SideBar/Footer/index.js";
 function Page() {
   const [click, setClick] = useState(false);
   return (

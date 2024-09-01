@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Link from "next/link";
+
 function Accordion({ fields, level }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,14 +21,14 @@ function Accordion({ fields, level }) {
             level < 2 ? " leading-tight border-b border-gray-300" : "text-sm"
           }`}
         >
-          <a
+          <Link
             href={fields.url}
             target="_blank"
             rel="noopener noreferrer"
             className=""
           >
             {fields.title}
-          </a>
+          </Link>
         </div>
       ) : (
         <div>

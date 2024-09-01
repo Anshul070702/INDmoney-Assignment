@@ -308,7 +308,7 @@ const Outer = {
   Pricing: {
     title: "Pricing",
     data: {},
-    url: "/pricing?type=indian-stocks",
+    url: `${mainURL}/pricing?type=indian-stocks`,
   },
   Disclosure: {
     title: "Disclosure",
